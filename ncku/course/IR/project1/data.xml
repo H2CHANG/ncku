@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">24058776</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>09</Month>
+            <Day>23</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>09</Month>
+            <Day>23</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">2162-3988</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>1</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jul</Month>
+                        <Day>1</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>JAK-STAT</Title>
+                <ISOAbbreviation>JAKSTAT</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Is suppression of cyst growth in PKD enough to preserve renal function?: STAT6 inhibition is a novel promising target.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>216-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.4161/jkst.21634</ELocationID>
+            <Abstract>
+                <AbstractText>The autosomal dominant form of polycystic kidney disease (ADPKD) is one of the most frequent monogenic disorders and the most frequent among inherited kidney disorders. In fact it has a prevalence in the population of about 1/1,000 individuals, therefore it does not even satisfy the definition for rare diseases. It is mainly characterized by the formation of multiple cysts filled with fluid that over time develop in number and size leading to the distraction of the structure and function of the kidneys and eventually leading to chronic kidney disease/end stage kidney disease (CKD/ESKD), usually between the 4th and 7th decade of life. There are two known forms of the autosomal dominant type of polycystic kidney disease, type 1 and type 2, caused by mutations in the PKD1 and PKD2 genes, located on chromosomes 16 and 4 respectively. The polycystin 1 protein, encoded by PKD1 and mutated in ~85% of patients, is a huge protein of 4,302 amino acids with multiple transmembrane domains, 200 residues intracytoplasmic part and a huge extracellular part with multiple Ig-like PKD repeats, which probably acts as a receptor to an unknown ligand. Polycystin 1 has been shown to interact with and participate in multiple signal transduction pathways, including the G-protein coupled receptor, cAMP pathway, Wnt, mTOR, MAPK/ERK, AP1 and JAK-STAT pathway, while its intracytoplasmic C-terminal domain has been shown to be cleaved and translocated to the nucleus where it plays a role in gene transcription, in concert with P100 and STAT6.(1.)</AbstractText>
+            </Abstract>
+            <Affiliation>Molecular Medicine Research Center and Laboratory of Molecular and Medical Genetics; Department of Biological Sciences; University of Cyprus, Nicosia, Cyprus.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Deltas</LastName>
+                    <ForeName>Constantinos</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Felekkis</LastName>
+                    <ForeName>Kyriacos</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>JAKSTAT</MedlineTA>
+            <NlmUniqueID>101591376</NlmUniqueID>
+            <ISSNLinking>2162-3988</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ADPKD</Keyword>
+            <Keyword MajorTopicYN="N">STAT6 inhibition</Keyword>
+            <Keyword MajorTopicYN="N">cell proliferation</Keyword>
+            <Keyword MajorTopicYN="N">cyst formation</Keyword>
+            <Keyword MajorTopicYN="N">signal transduction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.4161/jkst.21634</ArticleId>
+            <ArticleId IdType="pii">2012JAKS0022R</ArticleId>
+            <ArticleId IdType="pubmed">24058776</ArticleId>
+            <ArticleId IdType="pmc">PMC3670250</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
