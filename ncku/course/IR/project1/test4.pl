@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use feature 'state';
+
 # use module
 use XML::Simple;
 use Data::Dumper;
@@ -12,33 +12,33 @@ use Lingua::EN::Inflect::Number qw( to_S to_PL );
 use open ":encoding(utf8)";
 use open IN => ":encoding(utf8)", OUT => ":utf8";
 
-our @pubmed_data;
-our %word_data;
-our %char_data;
-# create object
 
 my $xml = new XML::Simple (KeyAttr=>[]);
 
-
-#remove_attribute($ARGV[0], "data1.txt");
 my $data1 = $xml->XMLin("$ARGV[0]");
 my $data2 = $xml->XMLin("$ARGV[1]");
-#traverse( $data );
 
+
+open my $word_file, '>', "data2.txt"
+    or die "can't open $!";
+open my $char_file, '>>', "data3.txt"
+    or die "can't open $!";
 
 my $abstract1 = $data1->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
 #my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
 my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText}->{content};
-#print "abstract1 = $abstract1\n";
-#print "abstract2 = $abstract2\n";
+
 my $sentence1 = sentence($abstract1);
 my $sentence2 = sentence($abstract2);
+
+
 
 my $word1 = word(\@$sentence1);
 my $word2 = word(\@$sentence2);
 
 my %word1_hash;
 my %word2_hash;
+
 foreach (@$word1){
     if (exists $word1_hash{$_} ) {
                 $word1_hash{$_}++;
@@ -74,16 +74,13 @@ foreach (sort keys %word2_hash){
     }
 
 
-#print Data::Dumper->Dump([@final_array]);
-
 my @sort_array = sort {$a->[1] cmp $b->[1]} @final_array;
-open my $xml_file, '>', "data1.txt"
-    or die "can't open $!";
+
 foreach (@sort_array){
-        printf $xml_file "%2d%20s%5d\n", $_->[0], $_->[1], $_->[2];
+        printf $word_file "%2d%20s%5d\n", $_->[0], $_->[1], $_->[2];
     
     }
-close $xml_file;
+close $word_file;
 
 cmp_file(@sort_array);
 
@@ -120,8 +117,7 @@ foreach (sort keys %word2_hash) {
         }
      }
 }
-open my $char_file, '>>', "data2.txt"
-    or die "can't open $!";
+
 foreach (sort keys %char1_hash){
         printf $char_file "%20s%5d\n", $_, $char1_hash{$_};
     
@@ -143,20 +139,23 @@ sub sentence {
  
    my $sentences=get_sentences($_[0]);     ## Get the sentences.
 
-#   foreach (@$sentences){
-#      print "sentencesss = $_\n";
-  
-#  }
+   open my $sentence_file, '>>', "data1.txt"
+      or die "can't open $!";
+   foreach (@$sentences){
+       print $sentence_file "$_\n";
+    
+    }
+   print $sentence_file "--------------------\n";
+   close $sentence_file;
+
    return $sentences;   
 
 }
 sub word {
       my @word;
-      #print"------------\n";
-      #print Dumper @{$_[0]};
-      
+
       foreach my $sentence (@{$_[0]}) {
-        #print "test = $_";
+
         $sentence =~ s/(.*?),/$1/g;
         $sentence =~ s/\((.*?)\)/$1/g;
         $sentence =~ s/\[(.*?)\]/$1/g;
@@ -183,7 +182,7 @@ sub cmp_file{
     my $flag = 1;
     my @array = @_;
     for($i=0;$i<$#array; $i=$i+2){
-        #print "i=$i\n";
+   
         if($array[$i]->[1] eq $array[$i+1]->[1]){
  
             if ($array[$i]->[2] == $array[$i+1]->[2]){
