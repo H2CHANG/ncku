@@ -24,9 +24,9 @@ open my $word_file, '>', "data2.txt"
 open my $char_file, '>>', "data3.txt"
     or die "can't open $!";
 
-my $abstract1 = $data1->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
+my $abstract1 = $data1->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText}->{content};
 #my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
-my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText}->{content};
+my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
 
 my $sentence1 = sentence($abstract1);
 my $sentence2 = sentence($abstract2);
@@ -58,26 +58,40 @@ foreach (@$word2){
                 $word2_hash{$_} = 1;
             }
     }
+my $word1_total= 0;
+my $word2_total=0;
+foreach (sort keys %word1_hash){
+    $word1_total = $word1_hash{$_} + $word1_total;
+    
+    
+    }
+foreach (sort keys %word2_hash){
+    $word2_total = $word2_hash{$_} + $word2_total;
+    
+    
+    } 
+print "word1 = $word1_total\n";
+print "word2 = $word2_total\n";
 
 
 my @final_array;
 
 foreach (sort keys %word1_hash){
-    push @final_array, [1, $_, $word1_hash{$_}];
+    push @final_array, [$_, 1, $word1_hash{$_}];
     
     
     }
 foreach (sort keys %word2_hash){
-    push @final_array, [2, $_, $word2_hash{$_}];
+    push @final_array, [$_, 2, $word2_hash{$_}];
     
     
     }
 
 
-my @sort_array = sort {$a->[1] cmp $b->[1]} @final_array;
+my @sort_array = sort {$a->[0] cmp $b->[0]} @final_array;
 
 foreach (@sort_array){
-        printf $word_file "%2d%20s%5d\n", $_->[0], $_->[1], $_->[2];
+        printf $word_file "%25s%10d%10d\n", $_->[0], $_->[1], $_->[2];
     
     }
 close $word_file;
@@ -118,16 +132,20 @@ foreach (sort keys %word2_hash) {
      }
 }
 
+my $char1 = 0;
+my $char2 = 0;
 foreach (sort keys %char1_hash){
         printf $char_file "%20s%5d\n", $_, $char1_hash{$_};
-    
+        $char1 = $char1 + $char1_hash{$_};
     }
 
 foreach (sort keys %char2_hash){
         printf $char_file "%20s%5d\n", $_, $char2_hash{$_};
-    
+        $char2 = $char2 + $char2_hash{$_};
     }
 close $char_file;
+print "char1 = $char1\n";
+print "char2 = $char2\n";
 
 
 
@@ -136,14 +154,14 @@ close $char_file;
 sub sentence {
    add_acronyms('lt','gen');               ## adding support for 'Lt. Gen.'
 
- 
+   my $line =1 ; 
    my $sentences=get_sentences($_[0]);     ## Get the sentences.
 
    open my $sentence_file, '>>', "data1.txt"
       or die "can't open $!";
    foreach (@$sentences){
-       print $sentence_file "$_\n";
-    
+       print $sentence_file "$line:   $_\n";
+       $line++;
     }
    print $sentence_file "--------------------\n";
    close $sentence_file;
