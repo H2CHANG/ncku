@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 <!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
 <PubmedArticleSet>
@@ -118,3 +119,125 @@
 </PubmedArticle>
 
 </PubmedArticleSet>
+=======
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">24073338</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2013</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCompleted>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Print">2090-4592</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2013</Volume>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>ISRN dermatology</Title>
+                <ISOAbbreviation>ISRN Dermatol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Emptying of Intracellular Calcium Pool and Oxidative Stress Imbalance Are Associated with the Glyphosate-Induced Proliferation in Human Skin Keratinocytes HaCaT Cells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>825180</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1155/2013/825180</ELocationID>
+            <Abstract>
+                <AbstractText>We demonstrated that glyphosate possesses tumor promoting potential in mouse skin carcinogenesis and SOD 1, calcyclin (S100A6), and calgranulin B (S100A9) have been associated with this potential, although the mechanism is unclear. We aimed to clarify whether imbalance in between [Ca(2+)] i levels and oxidative stress is associated with glyphosate-induced proliferation in human keratinocytes HaCaT cells. The [Ca(2+)] i levels, ROS generation, and expressions of G1/S cyclins, IP3R1, S100A6, S100A9, and SOD 1, and apoptosis-related proteins were investigated upon glyphosate exposure in HaCaT cells. Glyphosate (0.1 mM) significantly induced proliferation, decreases [Ca(2+)] i , and increases ROS generation in HaCaT cells, whereas antioxidant N-acetyl-L-cysteine (NAC) pretreatment reverts these effects which directly indicated that glyphosate induced cell proliferation by lowering [Ca(2+)] i levels via ROS generation. Glyphosate also enhanced the expression of G1/S cyclins associated with a sharp decrease in G0/G1 and a corresponding increase in S-phases. Additionally, glyphosate also triggers S100A6/S100A9 expression and decreases IP3R1 and SOD 1 expressions in HaCaT cells. Notably, Ca(2+) suppression also prevented apoptotic related events including Bax/Bcl-2 ratio and caspases activation. This study highlights that glyphosate promotes proliferation in HaCaT cells probably by disrupting the balance in between [Ca(2+)] i levels and oxidative stress which in turn facilitated the downregulation of mitochondrial apoptotic signaling pathways.</AbstractText>
+            </Abstract>
+            <Affiliation>Proteomics Laboratory, Indian Institute of Toxicology Research (CSIR), Mahatma Gandhi Marg, Lucknow, Uttar Pradesh 226001, India.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>George</LastName>
+                    <ForeName>Jasmine</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shukla</LastName>
+                    <ForeName>Yogeshwer</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>08</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Egypt</Country>
+            <MedlineTA>ISRN Dermatol</MedlineTA>
+            <NlmUniqueID>101566611</NlmUniqueID>
+            <ISSNLinking>2090-4592</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2013</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>5</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>7</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1155/2013/825180</ArticleId>
+            <ArticleId IdType="pubmed">24073338</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
+>>>>>>> 4a731cbc183be3f4c8cb21ed29be7f28dd493966
