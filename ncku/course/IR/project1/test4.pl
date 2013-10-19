@@ -6,7 +6,7 @@ use warnings;
 # use module
 use XML::Simple;
 use Data::Dumper;
-use Lingua::EN::PluralToSingular 'to_singular';
+#use Lingua::EN::PluralToSingular 'to_singular';
 use Lingua::EN::Sentence qw( get_sentences add_acronyms );
 use Lingua::EN::Inflect::Number qw( to_S to_PL );
 use open ":encoding(utf8)";
@@ -25,6 +25,7 @@ open my $char_file, '>>', "data3.txt"
     or die "can't open $!";
 
 my $abstract1 = $data1->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText}->{content};
+print "abstract1 = $abstract1\n";
 #my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
 my $abstract2 = $data2->{PubmedArticle}->{MedlineCitation}->{Article}->{Abstract}->{AbstractText};
 

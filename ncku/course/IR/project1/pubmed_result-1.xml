@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24072673</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>9</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1573-6903</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Sep</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Neurochemical research</Title>
+                <ISOAbbreviation>Neurochem. Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Changes in Levels of Hypoxia-Induced Mediators in Rat Hippocampus During Chronic Cerebral Hypoperfusion.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">The hypoxia-inducible factor (HIF)-mediated signaling pathway is an adaptive and protective mechanism that is triggered by hypoxia, ischemia, and other pathophysiological conditions. The expression of HIF-1α and downstream genes, some of which are pro-apoptotic whereas others are pro-survival, is up-regulated in ischemic stroke. Interestingly, however, the effects of HIF-1α activation are different in the early and late stages of acute cerebral ischemia, and these differences may depend on the duration and severity of hypoxia. Therefore, in the present study, we investigated the effect of HIF-1α activation in chronic cerebral hypoperfusion, which plays an important role in the development of dementia. Permanent bilateral common carotid artery occlusion (2VO) was used to induce chronic global cerebral hypoperfusion in rats. The expression of HIF-1α protein and the transcription of downstream genes were measured at different time points, including 0 h, 12 h, 24 h, 3 days, 7 days, 14 days, 28 days, 42 days, and 56 days after 2VO. HIF-1α increased as early as 12 h after the occlusion and remained high for at least 56 days. Interestingly, mRNA levels of both pro-apoptotic (Bcl-2/adenovirus EIB 19 kDa-interacting protein 3, NADPH oxidase activator 1, and NIP3-like protein X) and pro-survival (vascular endothelial growth factor, glucose transporter-1) genes were up-regulated at the early stage after 2VO, followed by a gradual decline to baseline/control levels. Thus, HIF-1α increased consistently during chronic cerebral hypoperfusion, whereas both pro-apoptotic and pro-survival downstream genes were up-regulated only early after 2VO. This mismatch in gene expression may contribute to the lack of a protective effect of highly expressed HIF-1α during the chronic stage of cerebral hypoperfusion.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Neurology, Zhongnan Hospital, Wuhan University, Donghu Road 169#, Wuhan, 430071, China.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Yang</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author>
+                    <LastName>Zhang</LastName>
+                    <ForeName>Junjian</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Liu</LastName>
+                    <ForeName>Hui</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Wang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Xin</LastName>
+                    <ForeName>Jiawei</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Deng</LastName>
+                    <ForeName>Min</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Neurochem Res</MedlineTA>
+            <NlmUniqueID>7613461</NlmUniqueID>
+            <ISSNLinking>0364-3190</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1007/s11064-013-1158-1</ArticleId>
+            <ArticleId IdType="pubmed">24072673</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
